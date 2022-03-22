@@ -3,7 +3,7 @@
 class Controller_Login extends Controller
 {
 	
-	function action_index()
+	function index()
 	{
 		//$data["login_status"] = "";
 

@@ -3,7 +3,7 @@
 class Controller_Admin extends Controller
 {
 	
-	function action_index()
+	function index()
 	{
 		session_start();
 		

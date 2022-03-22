@@ -9,7 +9,7 @@ class Controller_Portfolio extends Controller
         $this->view = new View();
     }
 
-    function action_index()
+    function index()
     {
         $news = $this->model->getNews();
         $test = $this->model->getXyu();
