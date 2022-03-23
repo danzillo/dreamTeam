@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$database = 'orient';
+$database = 'just__for_test';
 $user = 'root';
 $password = '';
 ?>
