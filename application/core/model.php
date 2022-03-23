@@ -13,6 +13,8 @@ class Model
         if ($result->num_rows){
             return mysqli_fetch_all($result, MYSQLI_ASSOC);
         }
+        if ($result)
+            return true;
         return false;
     }
 
