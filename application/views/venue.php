@@ -5,7 +5,7 @@
 <head>
 	<meta charset="UTF-8"/>
 	<title>Access Denied</title>
-	<link rel="stylesheet" href="assets/stylesheets/main.css">
+	<link rel="stylesheet" href="../../assets/stylesheets/main.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?
 family=Roboto:400,300,100&subset=cyrillic,latin">
 
@@ -41,41 +41,29 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 	
 </section>
 <section class="row">
-<div class="grid">
-<!-- Спикеры -->
-	<section class="teaser col-1-3">
-		<a href="speakers.php">
-			<h5>Спикеры</h5>
-			<h3>Спикеры мирового класса</h3>
-		</a>
-		<p>К нам приедут более двадцати фантастических спикеров со всего мира, чтобы поделиться своими замечательными историями.</p>
-	</section>
-	<!--
+  <div class="grid">
   
-  Расписание
-  
+    <section class="venue-hotel">
+
+      <div class="col-1-3">
+    <h2>Дворец культуры</h2>
+    <p>Главная Площадь<br> Риддер </p>
+    <p><a href="https://infor.kz/maps/kultura-dosug-otdyh/kulturno-razvlekatelnye-uchrezhdenija/dvorec-kultury-g-riddera.php">https://infor.kz/</a>
+ <br> (312) 462-6300</p>
+  </div><!--
+
   -->
-	<section class="teaser col-1-3">
-		<a href="schedule.php">
-			<h5>Расписание</h5>
-			<h3>Расписание на неделю</h3>
-		</a>
-		<p>Понедельник - 18:00; Среда - 18:00; Пятница - 20:00.</p>
-	</section>	
-	<!--
+<iframe class="venue-map col-2-3" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10186.065839032368!2d83.5058193!3d50.3382719!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6b10e36c893ed8ba!2z0JTQstC-0YDQtdGGINCa0YPQu9GM0YLRg9GA0Ys!5e0!3m2!1sru!2sru!4v1622613568951!5m2!1sru!2sru" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+
   
-  Место проведения
-  
-  -->
-	<section class="teaser col-1-3">
-		<a href="venue.php">
-			<h5>Место проведения</h5>
-		</a>
-		<h3>Дворец культуры, секция 6.</h3>
-		<p>Все дни</p>
-	</section>
-</div>
+    </section>
+
+  </div>
 </section>
+
+
 <section class="hero container">
 <a class="btn btn-alt" href="register.php">Зарегистрируйтесь сейчас</a>
 </section>

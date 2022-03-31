@@ -5,7 +5,7 @@
 <head>
 	<meta charset="UTF-8"/>
 	<title>Access Denied</title>
-	<link rel="stylesheet" href="assets/stylesheets/main.css">
+	<link rel="stylesheet" href="../../assets/stylesheets/main.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?
 family=Roboto:400,300,100&subset=cyrillic,latin">
 
@@ -44,36 +44,42 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 <div class="grid">
 <!-- Спикеры -->
 	<section class="teaser col-1-3">
-		<a href="speakers.php">
-			<h5>Спикеры</h5>
-			<h3>Спикеры мирового класса</h3>
-		</a>
-		<p>К нам приедут более двадцати фантастических спикеров со всего мира, чтобы поделиться своими замечательными историями.</p>
-	</section>
+  <h5>Спикеры</h5>
+  <a href="speakers.php">
+    <img src="../../assets/images/home/speakers.jpg" alt="Профессиональные спикеры">
+    <h3>Спикеры мирового класса</h3>
+  </a>
+  <p>К нам приедут более двадцати фантастических спикеров со всего мира, чтобы поделиться своими историями.</p>
+</section>
+
 	<!--
   
   Расписание
   
   -->
 	<section class="teaser col-1-3">
-		<a href="schedule.php">
-			<h5>Расписание</h5>
-			<h3>Расписание на неделю</h3>
-		</a>
-		<p>Понедельник - 18:00; Среда - 18:00; Пятница - 20:00.</p>
-	</section>	
+  <h5>Расписание</h5>
+  <a href="schedule.php">
+    <img src="../../assets/images/home/schedule.jpg" alt="Точно по графику!">
+    <h3>Расписание на неделю</h3>
+  </a>
+  <p>Понедельник - 18:00; Среда - 18:00; Пятница - 20:00.</p>
+</section>
+	
 	<!--
   
   Место проведения
   
   -->
 	<section class="teaser col-1-3">
-		<a href="venue.php">
-			<h5>Место проведения</h5>
-		</a>
-		<h3>Дворец культуры, секция 6.</h3>
-		<p>Все дни</p>
-	</section>
+  <h5>Место проведения</h5>
+  <a href="venue.php">
+    <img src="../../assets/images/home/venue.jpg" alt="Дворец культуры">
+    <h3>Дворец культуры, секция 6.</h3>
+  </a>
+  <p>Все дни</p>
+</section>
+	
 </div>
 </section>
 <section class="hero container">

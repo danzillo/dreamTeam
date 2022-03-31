@@ -5,7 +5,7 @@
 <head>
 	<meta charset="UTF-8"/>
 	<title>Access Denied</title>
-	<link rel="stylesheet" href="assets/stylesheets/main.css">
+	<link rel="stylesheet" href="../../assets/stylesheets/main.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?
 family=Roboto:400,300,100&subset=cyrillic,latin">
 
@@ -64,7 +64,7 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 
       --><aside class="col-1-3">
         <div class="speaker-info">
-<img src="assets/images/speakers/shay.jpg" alt="Шэй Хоу">
+<img src="../../assets/images/speakers/shay.jpg" alt="Шэй Хоу">
       <ul>
         <li><a href="https://twitter.com/shayhowe">@shayhowe</a></li>
         <li><a href="http://learn.shayhowe.com/">learn.shayhowe.com</a></li>
@@ -91,7 +91,7 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 
       --><aside class="col-1-3">
         <div class="speaker-info">
-<img src="assets/images/speakers/chris.jpg" alt="Крис Миллс">
+<img src="../../assets/images/speakers/chris.jpg" alt="Крис Миллс">
 
       <ul>
         <li><a href="https://twitter.com/chrisssss">@chrisssss</a></li>
