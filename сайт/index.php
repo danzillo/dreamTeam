@@ -13,7 +13,7 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 
 <body>
 	<h1 class="logo">
-		<a href="index.html">Styles <br> Conference</a>
+		<a href="main.php">Styles <br> Conference</a>
 	</h1>
 	<p>This is it!</p>
 
@@ -24,11 +24,11 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 	<h3 class="tagline">6&ndash;12 июля &mdash; Риддер, штат Казахстан</h3>
 	<nav class="nav primary-nav">
     		<ul>
-    <li><a href="index.html">Главная</a></li><!--
-    --><li><a href="speakers.html">Спикеры</a></li><!--
-    --><li><a href="schedule.html">Расписание</a></li><!--
-    --><li><a href="venue.html">Место проведения</a></li><!--
-    --><li><a href="register.html">Регистрация</a></li>
+    <li><a href="main.php">Главная</a></li><!--
+    --><li><a href="speakers.php">Спикеры</a></li><!--
+    --><li><a href="schedule.php">Расписание</a></li><!--
+    --><li><a href="venue.php">Место проведения</a></li><!--
+    --><li><a href="register.php">Регистрация</a></li>
   </ul>
 
  	</nav>
@@ -45,7 +45,7 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 <!-- Спикеры -->
 	<section class="teaser col-1-3">
   <h5>Спикеры</h5>
-  <a href="speakers.html">
+  <a href="speakers.php">
     <img src="assets/images/home/speakers.jpg" alt="Профессиональные спикеры">
     <h3>Спикеры мирового класса</h3>
   </a>
@@ -59,7 +59,7 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
   -->
 	<section class="teaser col-1-3">
   <h5>Расписание</h5>
-  <a href="schedule.html">
+  <a href="schedule.php">
     <img src="assets/images/home/schedule.jpg" alt="Точно по графику!">
     <h3>Расписание на неделю</h3>
   </a>
@@ -73,7 +73,7 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
   -->
 	<section class="teaser col-1-3">
   <h5>Место проведения</h5>
-  <a href="venue.html">
+  <a href="venue.php">
     <img src="assets/images/home/venue.jpg" alt="Дворец культуры">
     <h3>Дворец культуры, секция 6.</h3>
   </a>
@@ -83,18 +83,18 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 </div>
 </section>
 <section class="hero container">
-<a class="btn btn-alt" href="register.html">Зарегистрируйтесь сейчас</a>
+<a class="btn btn-alt" href="register.php">Зарегистрируйтесь сейчас</a>
 </section>
 
 <footer class="primary-footer container group">
 	<small>&copy; Hi, people!</small>
 <nav class="nav">	
   <ul>
-    <li><a href="index.html">Главная</a></li><!--
-    --><li><a href="speakers.html">Спикеры</a></li><!--
-    --><li><a href="schedule.html">Расписание</a></li><!--
-    --><li><a href="venue.html">Место проведения</a></li><!--
-    --><li><a href="register.html">Регистрация</a></li>
+    <li><a href="main.php">Главная</a></li><!--
+    --><li><a href="speakers.php">Спикеры</a></li><!--
+    --><li><a href="schedule.php">Расписание</a></li><!--
+    --><li><a href="venue.php">Место проведения</a></li><!--
+    --><li><a href="register.php">Регистрация</a></li>
   </ul>
 
 </nav>
