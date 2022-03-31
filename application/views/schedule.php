@@ -13,7 +13,7 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 
 <body>
 	<h1 class="logo">
-		<a href="main.php">Styles <br> Conference</a>
+		<a href="/main">Styles <br> Conference</a>
 	</h1>
 	<p>This is it!</p>
 
@@ -24,11 +24,11 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 	<h3 class="tagline">6&ndash;12 июля &mdash; Риддер, штат Казахстан</h3>
 	<nav class="nav primary-nav">
     		<ul>
-    <li><a href="main.php">Главная</a></li><!--
-    --><li><a href="speakers.php">Спикеры</a></li><!--
-    --><li><a href="schedule.php">Расписание</a></li><!--
-    --><li><a href="venue.php">Место проведения</a></li><!--
-    --><li><a href="register.php">Регистрация</a></li>
+                <li><a href="/main">Главная</a></li><!--
+    --><li><a href="/speakers">Спикеры</a></li><!--
+    --><li><a href="/schedule">Расписание</a></li><!--
+    --><li><a href="/venue">Место проведения</a></li><!--
+    --><li><a href="/register">Регистрация</a></li>
   </ul>
 
  	</nav>
@@ -56,7 +56,7 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
   
   -->
 	<section class="teaser col-1-3">
-		<a href="schedule.php">
+		<a href="/schedule">
 			<h5>Расписание</h5>
 			<h3>Расписание на неделю</h3>
 		</a>
@@ -68,7 +68,7 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
   
   -->
 	<section class="teaser col-1-3">
-		<a href="venue.php">
+		<a href="/venue">
 			<h5>Место проведения</h5>
 		</a>
 		<h3>Дворец культуры, секция 6.</h3>
@@ -84,11 +84,11 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 	<small>&copy; Hi, people!</small>
 <nav class="nav">	
   <ul>
-    <li><a href="main.php">Главная</a></li><!--
-    --><li><a href="speakers.php">Спикеры</a></li><!--
-    --><li><a href="schedule.php">Расписание</a></li><!--
-    --><li><a href="venue.php">Место проведения</a></li><!--
-    --><li><a href="register.php">Регистрация</a></li>
+      <li><a href="/main">Главная</a></li><!--
+    --><li><a href="/speakers">Спикеры</a></li><!--
+    --><li><a href="/schedule">Расписание</a></li><!--
+    --><li><a href="/venue">Место проведения</a></li><!--
+    --><li><a href="/register">Регистрация</a></li>
   </ul>
 
 </nav>
