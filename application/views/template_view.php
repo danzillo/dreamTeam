@@ -28,7 +28,7 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 
 <body>
 <h1 class="logoright jslogo _anim-items">
-    <a class="logolol" href="шаблон.html">Styles <br> Conference&copy;</a>
+    <a class="logolol" href="шаблон.php">Styles <br> Conference&copy;</a>
 </h1>
 </body>
 
