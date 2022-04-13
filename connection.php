@@ -1,6 +1,6 @@
 <?php
-$host = 'localhost';
-$database = 'just__for_test';
+$host = 'project';
+$database = 'time_table';
 $user = 'root';
 $password = '';
 ?>
