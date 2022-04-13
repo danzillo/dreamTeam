@@ -14,7 +14,7 @@ Modified by VitalySwipe
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8"/>
-    <title>Главная</title>
+    <title>DreamTeam</title>
     <link rel="stylesheet" href="../../assets/stylesheets/main.css">
     <link rel="stylesheet" href="../../assets/stylesheets/adaptive.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?
