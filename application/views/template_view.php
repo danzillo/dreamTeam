@@ -12,10 +12,6 @@ Released   : 20120712
 Modified by VitalySwipe
 -->
 <html xmlns="http://www.w3.org/1999/xhtml">
-<!DOCTYPE html>
-
-<html lang="ru">
-
 <head>
     <meta charset="UTF-8" />
     <title>Главная</title>
@@ -28,13 +24,13 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 
 <body>
 <h1 class="logoright jslogo _anim-items">
-    <a class="logolol" href="шаблон.php">Styles <br> Conference&copy;</a>
+    <a class="logolol" href="шаблон.html">Styles <br> Conference&copy;</a>
 </h1>
 </body>
 
 <style>
     body {
-        background-image: url(../../assets/images/1.jpg);
+        background: url(../../assets/images/1.jpg);
     }
 </style>
 <header class="primary-header container group">
@@ -58,6 +54,8 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
     </nav>
 
 </header>
+				<div id="content">
+					<div class="box">
 						<?php include 'application/views/'.$content_view; ?>
 						<!--
 						<h2>Welcome to Accumen</h2>
@@ -66,6 +64,9 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 							This is <strong>Accumen</strong>, a free, fully standards-compliant CSS template by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>. The images used in this template are from <a href="http://fotogrph.com/">Fotogrph</a>. This free template is released under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attributions 3.0</a> license, so you are pretty much free to do whatever you want with it (even use it commercially) provided you keep the footer credits intact. Aside from that, have fun with it :)
 						</p>
 						-->
+					</div>
+					<br class="clearfix" />
+				</div>
 <footer class="primary-footer container group">
     <small class="logosm">Styles<br>Conference&copy;</small>
     <nav class="nav">
@@ -87,6 +88,5 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 
     </nav>
 </footer>
-<script src="js/js.js"></script>
-
+<script src="../../js/js.js"></script>
 </html>

@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 
 
 <section class="hero container">
@@ -14,7 +12,7 @@
         <section class="teaser col-1-3 js _anim-items animnh">
             <h5>Спикеры</h5>
             <a href="speakers.html">
-                <img src="assets/images/home/speakers.jpg" class="scale _anim-items animnh" alt="Профессиональные спикеры">
+                <img src="../../assets/images/home/speakers.jpg" class="scale _anim-items animnh" alt="Профессиональные спикеры">
                 <h3 class="h7">Спикеры мирового класса</h3>
             </a>
             <p class="h8">К нам приедут более двадцати фантастических спикеров со всего мира, чтобы поделиться своими историями.</p>
@@ -28,7 +26,7 @@
         <section class="teaser col-1-3 js1 _anim-items animnh">
             <h5>Расписание</h5>
             <a href="schedule.html">
-                <img src="assets/images/home/schedule.jpg" class="scale _anim-items animnh" alt="Точно по графику!">
+                <img src="../../assets/images/home/schedule.jpg" class="scale _anim-items animnh" alt="Точно по графику!">
                 <h3 class="h7">Расписание на неделю</h3>
             </a>
             <p class="h8">Понедельник - 18:00;<br> Среда - 18:00;<br> Пятница - 20:00.</p>
@@ -42,7 +40,7 @@
         <section class="teaser col-1-3 js2 _anim-items animnh">
             <h5>Место проведения</h5>
             <a href="venue.html">
-                <img src="assets/images/home/venue.jpg" class="scale _anim-items animnh" alt="Дворец культуры">
+                <img src="../../assets/images/home/venue.jpg" class="scale _anim-items animnh" alt="Дворец культуры">
                 <h3 class="h7">Дворец культуры, секция 6.</h3>
             </a>
             <p class="h8">Все дни</p>
@@ -54,6 +52,3 @@
     <a class="btn btn-alt" href="register.html">Зарегистрируйтесь сейчас</a>
 </section>
 
-
-
-</html>
