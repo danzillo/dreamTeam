@@ -13,7 +13,7 @@ Modified by VitalySwipe
 -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <title>Главная</title>
     <link rel="stylesheet" href="../../assets/stylesheets/main.css">
     <link rel="stylesheet" href="../../assets/stylesheets/adaptive.css">
@@ -54,19 +54,19 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
     </nav>
 
 </header>
-				<div id="content">
-					<div class="box">
-						<?php include 'application/views/'.$content_view; ?>
-						<!--
-						<h2>Welcome to Accumen</h2>
-						<img class="alignleft" src="images/pic01.jpg" width="200" height="180" alt="" />
-						<p>
-							This is <strong>Accumen</strong>, a free, fully standards-compliant CSS template by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>. The images used in this template are from <a href="http://fotogrph.com/">Fotogrph</a>. This free template is released under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attributions 3.0</a> license, so you are pretty much free to do whatever you want with it (even use it commercially) provided you keep the footer credits intact. Aside from that, have fun with it :)
-						</p>
-						-->
-					</div>
-					<br class="clearfix" />
-				</div>
+<div id="content">
+    <div class="box">
+        <?php include 'application/views/' . $content_view; ?>
+        <!--
+        <h2>Welcome to Accumen</h2>
+        <img class="alignleft" src="images/pic01.jpg" width="200" height="180" alt="" />
+        <p>
+            This is <strong>Accumen</strong>, a free, fully standards-compliant CSS template by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>. The images used in this template are from <a href="http://fotogrph.com/">Fotogrph</a>. This free template is released under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attributions 3.0</a> license, so you are pretty much free to do whatever you want with it (even use it commercially) provided you keep the footer credits intact. Aside from that, have fun with it :)
+        </p>
+        -->
+    </div>
+    <br class="clearfix"/>
+</div>
 <footer class="primary-footer container group">
     <small class="logosm">Styles<br>Conference&copy;</small>
     <nav class="nav">
