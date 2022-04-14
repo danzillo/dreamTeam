@@ -24,6 +24,3 @@
 <?php if($login_status=="fail") { ?>
 <p style="color:red">Проверьте правильность данных!</p>
 <?php } ?>
-<?php elseif($login_status=="no_data"){ ?>
-<p style="color:#de7979">Проверьте правильность данных!</p>
-<?php } ?>
