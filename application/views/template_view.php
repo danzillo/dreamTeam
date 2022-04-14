@@ -36,7 +36,7 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 <header class="primary-header container group">
     <nav class="nav primary-nav">
         <ul>
-            <li><a href="/main" class="otstupl">Главнаяz</a></li>
+            <li><a href="/main" class="otstupl">Главная</a></li>
             <!--
     -->
             <li><a href="/speakers" class="otstup">Спикеры</a></li>
