@@ -23,10 +23,10 @@ class Route
 		}
 		
 		// получаем имя экшена
-		if ( !empty($routes[2]) )
-		{
-			$action_name = $routes[2];
-		}
+//		if ( !empty($routes[2]) )
+//		{
+//			$action_name = $routes[2];
+//		}
 
 		// добавляем префиксы
 		$model_name = 'Model_'.$controller_name;
