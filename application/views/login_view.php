@@ -20,9 +20,10 @@
 </table>
 
 
-<?php //extract($data); ?>
-<?php //if($login_status=="access_granted") { ?>
-<!--<p style="color:green">Авторизация прошла успешно.</p>-->
-<?php //} elseif($login_status=="access_denied") { ?>
-<!--<p style="color:red">Логин и/или пароль введены неверно.</p>-->
-<?php //} ?>
+<?php extract($data); ?>
+<?php if($login_status=="fail") { ?>
+<p style="color:red">Проверьте правильность данных!</p>
+<?php } ?>
+<?php elseif($login_status=="no_data"){ ?>
+<p style="color:#de7979">Проверьте правильность данных!</p>
+<?php } ?>
