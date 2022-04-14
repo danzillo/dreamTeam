@@ -1,6 +1,6 @@
 <?php
 $host = 'project';
-$database = 'time_table';
+$database = 'dream_team';
 $user = 'root';
 $password = '';
 ?>
