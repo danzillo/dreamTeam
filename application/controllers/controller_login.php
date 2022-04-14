@@ -10,9 +10,9 @@ class Controller_Login extends Controller
             if ($login == "admin" && $password == "12345") {
                 $data["login_status"] = "sucsess"; //если данные введены верно
                 session_start();// создаем сеанс на сервере для админа
-                $_SESSION['login'] = $_POST['login'];
-                $_SESSION['pass'] = $_POST['pass'];
-                $_SESSION['staus'] = "administrator";
+//                $_SESSION['login'] = $_POST['login'];
+//                $_SESSION['pass'] = $_POST['pass'];
+                $_SESSION['status'] = "administrator"; //статус сессии
                 header("Location:/admin/");
             } else {
                 $data ["login_status"] = "fail";// если данные введены с ошибкой
