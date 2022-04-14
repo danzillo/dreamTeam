@@ -6,7 +6,7 @@ class Controller_Admin extends Controller
 	function index()
 	{
 		session_start();
-		
+		if($_SESSION['staus'] == 'administrator'){
 		/*
 		Для простоты, в нашем случае, проверяется равенство сессионной переменной admin прописанному
 		в коде значению — паролю. Такое решение не правильно с точки зрения безопасности.
@@ -23,7 +23,10 @@ class Controller_Admin extends Controller
 		}
 
 	}
-	
+        else{
+            header('Location:/main');
+        }
+    }
 	// Действие для разлогинивания администратора
 	function action_logout()
 	{

@@ -12,6 +12,7 @@ class Controller_Login extends Controller
                 session_start();// создаем сеанс на сервере для админа
                 $_SESSION['login'] = $_POST['login'];
                 $_SESSION['pass'] = $_POST['pass'];
+                $_SESSION['staus'] = "administrator";
                 header("Location:/admin/");
             } else {
                 $data ["login_status"] = "fail";// если данные введены с ошибкой
@@ -31,7 +32,7 @@ class Controller_Login extends Controller
 //	function index()
 //	{
 //		//$data["login_status"] = "";
-//        echo $say = htmlspecialchars($_POST['pass']);
+//        echo $say = htmlspecialchars($_POST["pass']);
 //		if(isset($_POST['login']) && isset($_POST['pass']))
 //		{
 //			$login = $_POST['login'];
