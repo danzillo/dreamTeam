@@ -1,15 +1,27 @@
 ﻿<section class="schedule ">
 
+    <?php
+
+    $event_data  = $data['event_data'];
+    //echo  $event_data;
+    foreach($event_data as $new)
+    {
+        //echo $new['day_name'];
+//        echo $new['event_name'];
+//        echo $new['event_dicription'];
+//        echo $new['event_data'];
+    if($new['day_id']==1)
+        echo '<tr><td>'.$new['day_name'].'</td><td>'.$new['event_time'].'<td><td>'.$new['event_theme'].'</td><td>'.$new['speaker_name'].'</td></td>';
+    }
+
+    // echo $xyu;
+
+    ?>
     <iframe class=" scale _anim-items animnh"
-            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRKMhPcTdZ4Yh-07EohJer9KgN9pkFajqcYMVD97qwBCiq57LyEkIBy5ezZXS1eyjzXPt55qxJumYIb/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
             width="890"
-            height="830" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            height="830" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
 
 
-</section>
-
-
-<section class="hero container js3 _anim-items animnh">
-    <a class="btn btn-alt" href="register.html">Зарегистрируйтесь сейчас</a>
 </section>
 

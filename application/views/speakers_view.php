@@ -71,6 +71,3 @@
 
     </div>
 </section>
-<section class="hero container js3 _anim-items animnh">
-    <a class="btn btn-alt" href="register.html">Зарегистрируйтесь сейчас</a>
-</section>

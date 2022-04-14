@@ -24,7 +24,7 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 
 <body>
 <h1 class="logoright jslogo _anim-items">
-    <a class="logolol" href="шаблон.html">Styles <br> Conference&copy;</a>
+    <a class="logolol" href="/main">Styles <br> Conference&copy;</a>
 </h1>
 </body>
 
@@ -67,6 +67,10 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
     </div>
     <br class="clearfix"/>
 </div>
+<section class="hero container js3 _anim-items animnh">
+    <a class="btn btn-alt" href="/register">Зарегистрируйтесь сейчас</a>
+</section>
+
 <footer class="primary-footer container group">
     <small class="logosm">Styles<br>Conference&copy;</small>
     <nav class="nav">
