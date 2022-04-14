@@ -36,19 +36,19 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 <header class="primary-header container group">
     <nav class="nav primary-nav">
         <ul>
-            <li><a href="шаблон.html" class="otstupl">Главная</a></li>
+            <li><a href="/main" class="otstupl">Главная</a></li>
             <!--
     -->
-            <li><a href="speakers.html" class="otstup">Спикеры</a></li>
+            <li><a href="/speakers" class="otstup">Спикеры</a></li>
             <!--
     -->
-            <li><a href="schedule.html" class="otstup">Расписание</a></li>
+            <li><a href="/schedule" class="otstup">Расписание</a></li>
             <!--
     -->
-            <li><a href="venue.html" class="otstup">Место проведения</a></li>
+            <li><a href="/venue" class="otstup">Место проведения</a></li>
             <!--
     -->
-            <li><a href="register.html" class="otstupp">Регистрация</a></li>
+            <li><a href="/register" class="otstupp">Регистрация</a></li>
         </ul>
 
     </nav>
@@ -71,19 +71,19 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
     <small class="logosm">Styles<br>Conference&copy;</small>
     <nav class="nav">
         <ul>
-            <li><a href="шаблон.html">Главная</a></li>
+            <li><a href="/main">Главная</a></li>
             <!--
     -->
-            <li><a href="speakers.html">Спикеры</a></li>
+            <li><a href="/speakers">Спикеры</a></li>
             <!--
     -->
-            <li><a href="schedule.html">Расписание</a></li>
+            <li><a href="/schedule">Расписание</a></li>
             <!--
     -->
-            <li><a href="venue.html">Место проведения</a></li>
+            <li><a href="/venue">Место проведения</a></li>
             <!--
     -->
-            <li><a href="register.html">Регистрация</a></li>
+            <li><a href="/register">Регистрация</a></li>
         </ul>
 
     </nav>
