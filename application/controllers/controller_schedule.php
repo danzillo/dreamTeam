@@ -6,3 +6,5 @@ class Controller_Schedule extends Controller{
         $this->view->generate("schedule_view.php", "template_view.php");
     }
 }
+
+//
