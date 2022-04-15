@@ -23,7 +23,7 @@
     ?>
 </table>
 </p>
-<form action="/portfolio" method="post">
+<form action="../../index.php" method="post">
     <input name="qwe" type="text">
     <input type="submit">
 </form>

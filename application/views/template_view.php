@@ -24,7 +24,7 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 
 <body>
 <h1 class="logoright jslogo _anim-items">
-    <a class="logolol" href="/main">Styles <br> Conference&copy;</a>
+    <a class="logolol" href="../../index.php">Styles <br> Conference&copy;</a>
 </h1>
 </body>
 
@@ -33,7 +33,7 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
         background: url(../../assets/images/1.jpg);
     }
 </style>
-<header class="primary-header container group">
+<header class="primary-header container group" id = "head">
     <nav class="nav primary-nav">
         <ul>
             <li><a href="/main" class="otstupl">Главная</a></li>
@@ -68,7 +68,7 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
     <br class="clearfix"/>
 </div>
 <section class="hero container js3 _anim-items animnh">
-    <a class="btn btn-alt" href="/register">Зарегистрируйтесь сейчас</a>
+    <a class="btn btn-alt" href="../../index.php">Зарегистрируйтесь сейчас</a>
 </section>
 
 <footer class="primary-footer container group">
@@ -81,7 +81,7 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
             <li><a href="/speakers">Спикеры</a></li>
             <!--
     -->
-            <li><a href="/schedule">Расписание</a></li>
+            <li><a href="/register">Расписание</a></li>
             <!--
     -->
             <li><a href="/venue">Место проведения</a></li>

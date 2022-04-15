@@ -1,5 +1,5 @@
 
-<section class="hero container">
+<section class="hero container" id = "sec1">
 
     <h2 class="js _anim-items animnh">Посвящается ремеслу создания сайтов</h2>
     <p class="js1 _anim-items animnh">Каждый год самые яркие веб-дизайнеры и фронтенд-разработчики собираются в Риддере,
@@ -11,7 +11,7 @@
         <!-- Спикеры -->
         <section class="teaser col-1-3 js _anim-items animnh">
             <h5>Спикеры</h5>
-            <a href="/speakers">
+            <a href="../../index.php">
                 <img src="../../assets/images/home/speakers.jpg" class="scale _anim-items animnh"
                      alt="Профессиональные спикеры">
                 <h3 class="h7">Спикеры мирового класса</h3>
@@ -27,7 +27,7 @@
   -->
         <section class="teaser col-1-3 js1 _anim-items animnh">
             <h5>Расписание</h5>
-            <a href="/schedule">
+            <a href="../../index.php">
                 <img src="../../assets/images/home/schedule.jpg" class="scale _anim-items animnh"
                      alt="Точно по графику!">
                 <h3 class="h7">Расписание на неделю</h3>
@@ -42,7 +42,7 @@
   -->
         <section class="teaser col-1-3 js2 _anim-items animnh">
             <h5>Место проведения</h5>
-            <a href="/venue">
+            <a href="../../index.php">
                 <img src="../../assets/images/home/venue.jpg" class="scale _anim-items animnh" alt="Дворец культуры">
                 <h3 class="h7">Дворец культуры, секция 6.</h3>
             </a>
@@ -50,6 +50,13 @@
         </section>
 
     </div>
+  <nav><a href="#head" id="yakor">Наверх</a></nav>
+  <style>html { scroll-behavior: smooth; }
+  nav #yakor{padding: 40px;
+    top: 0;
+    right: 0;
+  }
+</style>
 </section>
 
 

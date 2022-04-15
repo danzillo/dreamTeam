@@ -2,43 +2,23 @@
 
 class Controller_Login extends Controller
 {
-    function __construct()
-    {
-        $this->model = new Model_Login();
-        $this->view = new View();
-    }
-
     function index()
     {
-        $admin_data = $this->model->get_login_data();
-        var_dump($admin_data);
-        $data['admin_data'] = array_reverse($admin_data);
-        $listLoginPass = $data['admin_data']; //получаем список админов
-        // foreach ($listLoginPass)
-        // return false;
-
-        //обрабатываем данные от клиента
         if (isset($_POST['login']) && isset($_POST['pass'])) {
-            //данные с формы
             $login = $_POST['login'];
             $password = $_POST['pass'];
-
-            //перибираем все пароли и логины из базы данных пока не попадется совпадение
-            foreach ($listLoginPass as $new) {
-                if ($login == $new['login'] && $password == $new['pass']) {
-                    $data["login_status"] = "sucsess"; //если данные введены верно
-                    session_start();// создаем сеанс на сервере для админа
+            if ($login == "admin" && $password == "12345") {
+                $data["login_status"] = "sucsess"; //если данные введены верно
+                session_start();// создаем сеанс на сервере для админа
 //                $_SESSION['login'] = $_POST['login'];
 //                $_SESSION['pass'] = $_POST['pass'];
-                    $_SESSION['status'] = "administrator"; //статус сессии
-                    header("Location:/admin/");
-                } else {
-                    $data ["login_status"] = "fail";// если данные введены с ошибкой
-                }
+                $_SESSION['status'] = "administrator"; //статус сессии
+                header("Location:/admin/");
+            } else {
+                $data ["login_status"] = "fail";// если данные введены с ошибкой
             }
-
-
-        } else {
+        }
+        else{
             $data["login_status"] = "";
         }
         $this->view->generate("login_view.php", "admin_template_view.php", $data);
