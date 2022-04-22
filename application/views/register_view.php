@@ -18,6 +18,7 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: none;
     background: rgb(25, 25, 25);
+    color: #f8f8f8;
 }
 
 input[type=text]:focus, input[type=password]:focus {
