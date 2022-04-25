@@ -7,6 +7,7 @@ class Model_Login extends Model
     {
         $query = 'SELECT * FROM admin_db ';
         // WHERE login=$login AND pass=$password
+        // решить как сделать проверку на подлкючения к БД;
         return $this->query($query);
     }
 }
