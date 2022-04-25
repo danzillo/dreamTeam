@@ -2,6 +2,11 @@
 
 class Controller_Admin extends Controller
 {
+    function __construct()
+    {
+        $this->model = new Model_Admin();
+        $this->view = new View();
+    }
 
     function index()
     {
@@ -11,23 +16,36 @@ class Controller_Admin extends Controller
         в коде значению — паролю. Такое решение не правильно с точки зрения безопасности.
         Пароль должен храниться в базе данных в захешированном виде, но пока оставим как есть.
         */
+        //ссылка на подклчюения к базе данных
+        $link = $this->model->set_data();
+        var_dump($link);
+        var_dump($_POST["Name"]);
+        //отправляем данные в бдху
+        if (isset($_POST["Name"])&&isset($_POST["Price"]) && ($_POST["Name"])!=null && ($_POST["Price"])!=null) {
+            //Вставляем данные, подставляя их в запрос
+            //Если вставка прошла успешно
+            if ($link) {
+                echo '<p>Данные успешно добавлены в таблицу.</p>';
+
+                unset($_POST["Name"]);
+                var_dump($_POST["Name"]);
+                unset($_POST["Price"]);
+            } else {
+                echo '<p>Произошла ошибка: ' . mysqli_error($link) . '</p>';
+
+                unset($_POST["Name"]);
+                unset($_POST["Price"]);
+            }
+        }
+      //  re
+
         if ($_SESSION['status'] == "administrator") {
-            $this->view->generate('admin_view.php', 'template_view.php', $data);
+            $this->view->generate('admin_view.php', 'template_view.php', $link);
         } else {
             session_destroy();
             Route::ErrorPage404();
         }
 
-        if (isset($_POST["Name"])) {
-            //Вставляем данные, подставляя их в запрос
-            $sql = mysqli_query($data, "INSERT INTO `products` (`id`,`Name`, `Price`) VALUES (NULL,'{$_POST['Name']}', '{$_POST['Price']}')");
-            //Если вставка прошла успешно
-//            if ($sql) {
-//                echo '<p>Данные успешно добавлены в таблицу.</p>';
-//            } else {
-//                echo '<p>Произошла ошибка: ' . mysqli_error($data) . '</p>';
-//            }
-        }
 
     }
 
