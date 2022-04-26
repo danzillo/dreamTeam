@@ -73,3 +73,9 @@ input[type=text]:focus, input[type=password]:focus {
 </body>
  
 </section>
+
+<?php extract($data); ?>
+<?php if($login_status=="sucsess") { ?>
+ <!--   <p style="color:red">Проверьте правильность данных!</p>-->
+    <alert>Зарегестрировано!</alert>
+<?php } ?>

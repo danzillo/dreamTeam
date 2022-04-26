@@ -16,14 +16,16 @@ class Controller_Register extends Controller{
             header("Location:/register/");
 
             if ($link) {
-
-                echo '<p>Данные успешно добавлены в таблицу.</p>';
+                $data['register_status'] = "sucsess";
+                // $registerStatus = $data[]
+                //echo '<p>Данные успешно добавлены в таблицу.</p>';
 
 //                unset($_POST["Name"]);
 //                var_dump($_POST["Name"]);
 //                unset($_POST["Price"]);
             } else {
-                echo '<p>Произошла ошибка: ' . mysqli_error($link) . '</p>';
+                $data['registerStatus'] = "fail";
+               // echo '<p>Произошла ошибка: ' . mysqli_error($link) . '</p>';
 
 //                unset($_POST["Name"]);
 //                unset($_POST["Price"]);
