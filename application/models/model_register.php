@@ -1,10 +1,9 @@
 <?php
 
-class Model_Admin extends Model
-{
+class Model_Register{
     public function set_data()
     {
-        $query = "INSERT INTO `products` (`id`,`Name`, `Price`) VALUES (NULL,'{$_POST['Name']}', '{$_POST['Price']}')";
+        $query = "INSERT INTO `registration` (`id`,`name`, `phone`, `mail`, `accept`) VALUES (NULL,'{$_POST['name']}', '{$_POST['phone']}','{$_POST['mail']}', 0)";
         return $this->query($query);
     }
 }

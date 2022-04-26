@@ -52,14 +52,14 @@ input[type=text]:focus, input[type=password]:focus {
     <p style="color:white ">* Обязательно</p>
     <hr>
 
-    <label for="FIO"><b style="color:white ">Фамилия и имя*</b></label>
-    <input type="text" placeholder="Введите фамилию и имя" name="email" required>
+    <label for="name"><b style="color:white ">Фамилия и имя*</b></label>
+    <input type="text" placeholder="Введите фамилию и имя" name="name" required>
 
-    <label for="psw"><b style="color:white ">Телефон*</b></label>
-    <input type="text" placeholder="Введите телефон" name="psw" required>
+    <label for="phone"><b style="color:white ">Телефон*</b></label>
+    <input type="text" placeholder="Введите телефон" name="phone" required>
 
-    <label for="psw-repeat"><b style="color:white ">Эл.почта*</b></label>
-    <input type="text" placeholder="Введите почту" name="psw-repeat" required>
+    <label for="mail"><b style="color:white ">Эл.почта*</b></label>
+    <input type="text" placeholder="Введите почту" name="mail" required>
     <hr>
 
     <button type="submit" class="registerbtn">Зарегистрировать</button>
