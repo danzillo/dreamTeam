@@ -1,6 +1,6 @@
 <?php
 
-class Model_Register{
+class Model_Register extends Model{
     public function set_data()
     {
         $query = "INSERT INTO `registration` (`id`,`name`, `phone`, `mail`, `accept`) VALUES (NULL,'{$_POST['name']}', '{$_POST['phone']}','{$_POST['mail']}', 0)";

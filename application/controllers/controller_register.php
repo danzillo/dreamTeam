@@ -8,10 +8,26 @@ class Controller_Register extends Controller{
     }
 
     function index(){
-        $get_person =$this->model->set_data();
+        //ссылочка подключающася к бд и отправляющая данные если они введены
+        $link =$this->model->set_data();
         if (isset($_POST['name']) && isset($_POST['phone'])  &&isset($_POST['mail'])){
             // отправка данных в бд
             //добавить редирект
+            header("Location:/register/");
+
+            if ($link) {
+
+                echo '<p>Данные успешно добавлены в таблицу.</p>';
+
+//                unset($_POST["Name"]);
+//                var_dump($_POST["Name"]);
+//                unset($_POST["Price"]);
+            } else {
+                echo '<p>Произошла ошибка: ' . mysqli_error($link) . '</p>';
+
+//                unset($_POST["Name"]);
+//                unset($_POST["Price"]);
+            }
 
         }
         $this->view->generate("register_view.php", "template_view.php");
