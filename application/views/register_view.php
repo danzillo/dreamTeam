@@ -18,7 +18,7 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: none;
     background: rgb(25, 25, 25);
-    color: #f8f8f8;
+    color: #949393;
 }
 
 input[type=text]:focus, input[type=password]:focus {
@@ -45,7 +45,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 <body>
   
-<form action="../../index.php">
+<form action="" method="post">
   <div class="container">
     <h1 style="color:white "> Форма регистрации</h1>
     <p style="color:white "> Пожалуйста, заполните эту форму, чтобы зарегистрироваться на мероприятие.</p>
@@ -64,7 +64,7 @@ input[type=text]:focus, input[type=password]:focus {
 
     <button type="submit" class="registerbtn">Зарегистрировать</button>
   </div>
-  
+
   <div class="container signin">
     
   </div>

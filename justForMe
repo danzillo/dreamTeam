@@ -1,2 +1,3 @@
 //        var_dump($time_table);
 //        return false; для тестов
+// register_view--> нормальная форма для отправки телефона в БД

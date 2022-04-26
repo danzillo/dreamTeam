@@ -18,23 +18,24 @@ class Controller_Admin extends Controller
         */
         //ссылка на подклчюения к базе данных
         $link = $this->model->set_data();
-        var_dump($link);
-        var_dump($_POST["Name"]);
+//        var_dump($link);
+//        var_dump($_POST["Name"]);
         //отправляем данные в бдху
-        if (isset($_POST["Name"])&&isset($_POST["Price"]) && ($_POST["Name"])!=null && ($_POST["Price"])!=null) {
+        if (isset($_POST["Name"])&&isset($_POST["Price"])) {
             //Вставляем данные, подставляя их в запрос
             //Если вставка прошла успешно
+            header("Location:/admin/");
             if ($link) {
                 echo '<p>Данные успешно добавлены в таблицу.</p>';
 
-                unset($_POST["Name"]);
-                var_dump($_POST["Name"]);
-                unset($_POST["Price"]);
+//                unset($_POST["Name"]);
+//                var_dump($_POST["Name"]);
+//                unset($_POST["Price"]);
             } else {
                 echo '<p>Произошла ошибка: ' . mysqli_error($link) . '</p>';
 
-                unset($_POST["Name"]);
-                unset($_POST["Price"]);
+//                unset($_POST["Name"]);
+//                unset($_POST["Price"]);
             }
         }
       //  re
