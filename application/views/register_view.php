@@ -80,7 +80,7 @@ input[type=text]:focus, input[type=password]:focus {
 //?>
 
 <?php extract($data); ?>
-<?php if($login_status=="sucsess") { ?>
+<?php if($register_status=="success") { ?>
  <!--   <p style="color:red">Проверьте правильность данных!</p>-->
-    <alert>Зарегестрировано!</alert>
-<?php } ?>
+    Зарегестрировано!
+<?php }var_dump($register_status);?>

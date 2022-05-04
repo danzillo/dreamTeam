@@ -9,6 +9,7 @@ class Model
         if ($mysqli->connect_error) {
             die('Connect Error (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error);
         }
+
         $result =  $mysqli->query($query);
         if ($result->num_rows){
             return mysqli_fetch_all($result, MYSQLI_ASSOC);
