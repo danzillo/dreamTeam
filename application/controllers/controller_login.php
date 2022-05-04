@@ -10,6 +10,7 @@ class Controller_Login extends Controller
 
     function index()
     {
+
         $admin_data = $this->model->get_login_data();
         var_dump($admin_data);
         $data['admin_data'] = array_reverse($admin_data);

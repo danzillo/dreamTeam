@@ -74,6 +74,11 @@ input[type=text]:focus, input[type=password]:focus {
  
 </section>
 
+<?php
+//if(mail('mail', 'Регистрация', 'Ваша регистрация на мероприятие прошла успешно!') ) {echo'Письмо успешно отправлено';
+//}else{echo 'Ошибка';}
+//?>
+
 <?php extract($data); ?>
 <?php if($login_status=="sucsess") { ?>
  <!--   <p style="color:red">Проверьте правильность данных!</p>-->
