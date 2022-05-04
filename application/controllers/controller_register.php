@@ -6,13 +6,22 @@ class Controller_Register extends Controller{
         $this->model = new Model_Register();
         $this->view = new View();
     }
+    function send_mail($email){
+        if(mail($email, 'Регистрация', 'Ваша регистрация на мероприятие прошла успешно!') ) {echo'Письмо успешно отправлено';
+        }else{echo 'Ошибка';}
+    }
 
     function index(){
         //ссылочка подключающася к бд и отправляющая данные если они введены
         $link =$this->model->set_data();
+        var_dump($link);
         if (isset($_POST['name']) && isset($_POST['phone'])  &&isset($_POST['mail'])){
             // отправка данных в бд
-            //добавить редирект
+
+            //отправка письма по введенному почтовому адресу
+            $this->send_mail($_POST['mail']);
+
+            //редирект, чтобы очистить форму
             header("Location:/register/");
 
             if ($link) {
