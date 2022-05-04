@@ -51,7 +51,7 @@
             text-decoration: none;
             font-weight: bold;
             text-decoration: none;
-            margin: 0 auto;
+
         }
         .btn {
 
@@ -65,19 +65,19 @@
             text-transform: uppercase;
             background: rgb(143, 13, 13);
             margin-top: 30px;
-            margin: 0 auto;
+
         }
 
         .btn-alt {
             border: 1px solid #fff;
             padding: 10px 30px;
-            margin: 0 auto;
+
         }
 
         .btn-alt:hover {
             background: rgb(78, 6, 6);
             color: #fff;
-            margin: 0 auto;
+
         }
 
         .registerbtn:hover {
