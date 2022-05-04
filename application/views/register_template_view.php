@@ -67,7 +67,9 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
     </div>
     <br class="clearfix"/>
 </div>
-
+<!--<section class="hero container js3 _anim-items animnh">
+    <a class="btn btn-alt" type="submit"">Зарегистрируйтесь сейчас</a>
+</section>-->
 
 <footer class="primary-footer container group">
     <small class="logosm">Styles<br>Conference&copy;</small>

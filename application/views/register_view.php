@@ -1,4 +1,5 @@
-﻿<section class="register1">
+﻿
+<section class="register1">
     <style>
         * {
             box-sizing: border-box;
@@ -36,12 +37,80 @@
             width: 100%;
             opacity: 0.9;
             border-radius: 10px
+
+        }
+
+        .registerButton{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            vertical-align: baseline;
+            scroll-behavior: smooth;
+            border-bottom: 1px solid #dfe2e5;
+            text-decoration: none;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 0 auto;
+        }
+        .btn {
+
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            font-weight: 400;
+            letter-spacing: .5px;
+            margin: 0;
+            text-transform: uppercase;
+            background: rgb(143, 13, 13);
+            margin-top: 30px;
+            margin: 0 auto;
+        }
+
+        .btn-alt {
+            border: 1px solid #fff;
+            padding: 10px 30px;
+            margin: 0 auto;
+        }
+
+        .btn-alt:hover {
+            background: rgb(78, 6, 6);
+            color: #fff;
+            margin: 0 auto;
         }
 
         .registerbtn:hover {
             opacity: 1;
         }
+        .registerButton{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            vertical-align: baseline;
+            scroll-behavior: smooth;
+            border-bottom: 1px solid #dfe2e5;
+            text-decoration: none;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 0 auto;
+        }
+        .knopka{
+            background: transparent;
+            border: none !important;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            vertical-align: baseline;
+            scroll-behavior: smooth;
 
+            text-decoration: none;
+
+            text-decoration: none;
+            margin: 0 auto;
+        }
     </style>
 
     <body>
@@ -62,14 +131,16 @@
             <label for="mail"><b style="color:white ">Эл.почта*</b></label>
             <input type="text" placeholder="Введите почту" name="mail" required>
             <hr>
-            <section class="hero container js3 _anim-items animnh">
-                <button class="btn btn-alt a" type="submit"">Зарегистрируйтесь сейчас</button>
-            </section>
+
             <!--<button type="submit" class="registerbtn">Зарегистрировать</button>-->
         </div>
 
         <div class="container signin">
+
         </div>
+        <section class="hero container js3 _anim-items animnh">
+            <a class="btn btn-alt " ><button class="btn btn-alt knopka">Зарегистрируйтесь сейчас</button></a>
+        </section>
     </form>
 
     </body>
