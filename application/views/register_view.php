@@ -79,8 +79,8 @@ input[type=text]:focus, input[type=password]:focus {
 //}else{echo 'Ошибка';}
 //?>
 
-<?php extract($data); ?>
+<?php extract($_SESSION); ?>
 <?php if($register_status=="success") { ?>
  <!--   <p style="color:red">Проверьте правильность данных!</p>-->
-    Зарегестрировано!
-<?php }var_dump($register_status);?>
+    Ошибка введенных данных
+<?php }var_dump($_SESSION);?>

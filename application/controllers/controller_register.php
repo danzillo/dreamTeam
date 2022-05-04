@@ -20,6 +20,7 @@ class Controller_Register extends Controller
 
     function index()
     {
+        session_start();
         //$data["register_ststus"] = "12";
         //ссылочка подключающася к бд и отправляющая данные если они введены
         //TODO проверка введнности данных
@@ -35,12 +36,9 @@ class Controller_Register extends Controller
             $send_data = $this->model->set_data();
             //отправка письма по введенному почтовому адресу
             $this->send_mail($_POST['mail']);
-            $data['register_status'] = "success";
+            $_SESSION['register_status'] = "success";
             //редирект, чтобы очистить форму
             header("Location:/register/");
-        }
-        else{
-            $data['register_status'] = '';
         }
 
         $this->view->generate("register_view.php", "template_view.php", $data);
