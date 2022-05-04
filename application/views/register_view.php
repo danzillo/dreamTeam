@@ -62,8 +62,10 @@
             <label for="mail"><b style="color:white ">Эл.почта*</b></label>
             <input type="text" placeholder="Введите почту" name="mail" required>
             <hr>
-
-            <button type="submit" class="registerbtn">Зарегистрировать</button>
+            <section class="hero container js3 _anim-items animnh">
+                <button class="btn btn-alt a" type="submit"">Зарегистрируйтесь сейчас</button>
+            </section>
+            <!--<button type="submit" class="registerbtn">Зарегистрировать</button>-->
         </div>
 
         <div class="container signin">

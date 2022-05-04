@@ -25,7 +25,7 @@ class Controller_Register extends Controller
         //unset($_SESSION['register_status']);
         if(isset($_SESSION['register_status'])){
             if($_SESSION['register_status'] == "success"){
-            echo "<script>alert('Вы зарегетрированы!')</script>";}
+            echo "<script>alert('Вы зарегестрированы!')</script>";}
             unset ($_SESSION['register_status']);
         }
         /*
@@ -45,7 +45,7 @@ class Controller_Register extends Controller
             header("Location:/register/");
         }
 
-        $this->view->generate("register_view.php", "template_view.php");
+        $this->view->generate("register_view.php", "register_template_view.php");
 
     }
 }
