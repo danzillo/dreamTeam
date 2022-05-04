@@ -128,6 +128,7 @@
 <?php
 
 $event_data  = $data['event_data'];
+//var_dump($event_data);
 //echo  $event_data;
 foreach($event_data as $new)
 {

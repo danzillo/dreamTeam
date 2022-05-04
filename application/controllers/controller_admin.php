@@ -39,14 +39,17 @@ class Controller_Admin extends Controller
             }
         }
       //  re
-
+        $reg_user =$this->model->get_reg_user();
+       // var_dump($reg_user);
+        $data['reg_user'] = $reg_user;
+       // var_dump( $data);
         if ($_SESSION['status'] == "administrator") {
-            $this->view->generate('admin_view.php', 'template_view.php', $link);
+            $this->view->generate('admin_view.php', 'admin_template_view.php',  $data);
         } else {
             session_destroy();
             Route::ErrorPage404();
         }
-
+//ошибка с link & data
 
     }
 
