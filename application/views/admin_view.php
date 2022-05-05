@@ -27,14 +27,15 @@
     </table>
 </form>-->
 
-
-<table class="iksweb">
+<form method="post" action="">
+<table class="iksweb" >
     <tbody>
     <tr>
         <th>ФИО</th>
         <th>Телефон</th>
         <th>Мэйл</th>
-        <th>Статус</th>
+        <th>Принять</th>
+        <th>Отклонить</th>
     </tr>
     <?php
     $reg_list = $data['reg_user'];
@@ -47,17 +48,16 @@
         <td><?= $list['name'] ?></td>
         <td><?= $list['phone'] ?></td>
         <td><?= $list['mail'] ?></td>
-        <td><?= $list['accept'] ?></td>
+        <td><input type="checkbox" name="a" value="1417"></td><td><input type="checkbox" name="a" value="1417"></td>
     </tr>
-
     </tbody>
-
-
 <?php
 }
 //?>
 
 </table>
+    <input type="submit" value="Обновить списки" />
+</form>
 <!--<table>-->
 <!--<tr>-->
 <!--    <th>ФИО</th>-->
