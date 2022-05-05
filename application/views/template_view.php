@@ -92,5 +92,5 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 
     </nav>
 </footer>
-<script src="../../js/js.js"></script>
+<script src="../../js/js1.js"></script>
 </html>
