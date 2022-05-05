@@ -21,7 +21,7 @@ class Controller_Admin extends Controller
 //        var_dump($link);
 //        var_dump($_POST["Name"]);
         //отправляем данные в бдху
-        if (isset($_POST["Name"])&&isset($_POST["Price"])) {
+        if (isset($_POST["Name"]) && isset($_POST["Price"])) {
             //Вставляем данные, подставляя их в запрос
             //Если вставка прошла успешно
             header("Location:/admin/");
@@ -38,27 +38,53 @@ class Controller_Admin extends Controller
 //                unset($_POST["Price"]);
             }
         }
-      //  re
-        $reg_user =$this->model->get_reg_user();
-       // var_dump($reg_user);
-        $data['reg_user'] = $reg_user;
-       // var_dump( $data);
-        if ($_SESSION['status'] == "administrator") {
-            $this->view->generate('admin_view.php', 'admin_template_view.php',  $data);
-        } else {
-            session_destroy();
-            Route::ErrorPage404();
+        //  re
+        $all_user = $this->model->get_all_user();
+        // var_dump($reg_user);
+        $data['reg_user'] = $all_user;
+//        $id = $_POST["accept"];
+
+        if(isset($_POST["accept"])){
+        foreach ($_POST["accept"] as $reg_id){
+            $update_status = $this->model->update_user_status($reg_id);
         }
+            header("Location:/admin/");
+        echo "Данные пользователей обновлены!";
+        }
+
+        if(isset($_POST["decline"])){
+            foreach ($_POST["decline"] as $reg_id){
+                $delete_user = $this->model->delete_user($reg_id);
+            }
+            header("Location:/admin/");
+            echo "Данные пользователей обновлены!";
+        }
+//        var_dump($_POST["accept"]);
+//        if (isset($_POST["accept"])) {
+//            $update_status = $this->model->update_user_status();
+//            if ($update_status) {
+//                echo '<p>Данные успешно добавлены в таблицу.</p>';
+//            }}
+
+            $data['update_status'] = $update_status;
+            var_dump($data['update_status']);
+            // var_dump( $data);
+            if ($_SESSION['status'] == "administrator") {
+                $this->view->generate('admin_view.php', 'admin_template_view.php', $data);
+            } else {
+                session_destroy();
+                Route::ErrorPage404();
+            }
 //ошибка с link & data
 
-    }
+        }
 
-    // Действие для разлогинивания администратора
-    function action_logout()
-    {
-        session_start();
-        session_destroy();
-        header('Location:/');
-    }
+        // Действие для разлогинивания администратора
+        function action_logout()
+        {
+            session_start();
+            session_destroy();
+            header('Location:/');
+        }
 
-}
+    }

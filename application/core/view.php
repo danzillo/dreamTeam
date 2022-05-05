@@ -31,4 +31,6 @@ class View
 		*/
 		include 'application/views/'.$template_view;
 	}
+
+    
 }
