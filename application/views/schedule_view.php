@@ -1,7 +1,7 @@
 ﻿<section class = "row">
     <section class="schedule ">
 
-        <table class ="  _anim-items animnh ">
+        <table class ="js1 scale _anim-items animnh ">
             <caption class = "logo js1 _anim-items animnh rasp color2 scale">Расписание</caption>
 
             <tr>
