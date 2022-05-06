@@ -1,6 +1,6 @@
 ﻿<section class = "row">
     <section class="schedule ">
-//scale js1 убрал.
+
         <table class ="  _anim-items animnh ">
             <caption class = "logo js1 _anim-items animnh rasp color2 scale">Расписание</caption>
 
@@ -178,5 +178,6 @@
 //echo '<tr><td>'.$new['day_name'].'</td><td>'.$new['event_time'].'<td><td>'.$new['event_theme'].'</td><td>'.$new['speaker_name'].'</td></td>';
 //}
 
+// echo $xyu;
 
 ?>
