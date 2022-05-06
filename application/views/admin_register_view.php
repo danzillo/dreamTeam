@@ -77,7 +77,8 @@
 
 
     <?php  $reg_list = $data['reg_user'];
-    if(!$reg_list){?>
+
+    if(!empty($data['reg_user'])){?>
 <h>Список на регистрацию</h>
 
 <form method="post" action="">

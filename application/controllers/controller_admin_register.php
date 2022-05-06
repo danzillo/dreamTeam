@@ -18,7 +18,6 @@ class Controller_Admin_Register extends Controller
 
         $new_user = $this->model->get_reg_user();
         $data['reg_user'] = $new_user;
-
 //        $id = $_POST["accept"];
 
         if (isset($_POST["accept"])) {
