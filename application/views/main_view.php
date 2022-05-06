@@ -50,13 +50,12 @@
         </section>
 
     </div>
-  <nav><a href="#head" id="yakor">Наверх</a></nav>
-  <style>html { scroll-behavior: smooth; }
-  nav #yakor{padding: 40px;
-    top: 0;
-    right: 0;
-  }
-</style>
+
+    <style>
+        body {
+            background: url(../../assets/images/1.jpg);
+        }
+    </style>
 </section>
 
 

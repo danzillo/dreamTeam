@@ -20,12 +20,14 @@ Modified by VitalySwipe
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?
 family=Roboto:400,300,100&subset=cyrillic,latin">
     <link rel="shortcut icon" href="../../assets/images/logosite.png" type="image/x-icon">
-</head>
 
+</head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <body>
 <h1 class="logoright jslogo _anim-items">
     <a class="logolol" href="../../index.php">Styles <br> Conference&copy;</a>
 </h1>
+<div id="toTop"><img src="../../assets/images/UpTop.png" width="50px" height="50px" /></div>
 </body>
 
 <style>
@@ -92,5 +94,22 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 
     </nav>
 </footer>
-<script src="../../js/js1.js"></script>
+<script src="../../js/js.js"></script>
+<script>
+    $(function() {
+
+        $(window).scroll(function() {
+
+            if($(this).scrollTop() != 0) {
+                $('#toTop').fadeIn();
+            } else {
+                $('#toTop').fadeOut();
+            }
+        });
+        $('#toTop').click(function() {
+            $('body,html').animate({scrollTop:0},800);
+        });
+
+    });
+</script>
 </html>

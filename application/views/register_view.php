@@ -113,7 +113,7 @@
         }
     </style>
 
-    <body>
+
 
     <form action="" method="post">
         <div class="container">
@@ -142,7 +142,11 @@
             <a class="btn btn-alt " ><button class="btn btn-alt knopka">Зарегистрируйтесь сейчас</button></a>
         </section>
     </form>
-
+    <style>
+        body {
+            background: url(../../assets/images/5.jpg);
+        }
+    </style>
     </body>
 
 </section>

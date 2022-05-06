@@ -22,4 +22,9 @@
 
     </div>
 </section>
+<style>
+    body {
+        background: url(../../assets/images/4.jpg);
+    }
+</style>
 

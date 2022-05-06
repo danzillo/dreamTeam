@@ -71,3 +71,8 @@
 
     </div>
 </section>
+<style>
+    body {
+        background: url(../../assets/images/speakers.jpg);
+    }
+</style>
