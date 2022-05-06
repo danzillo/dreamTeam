@@ -76,9 +76,7 @@
 
 
 
-    <?php  $reg_list = $data['reg_user'];
 
-    if(!empty($data['reg_user'])){?>
 <h>Список на регистрацию</h>
 
 <form method="post" action="">
@@ -93,7 +91,7 @@
         </tr>
         <?php
 
-
+        $reg_list = $data['reg_user'];
 
         foreach ($reg_list
 
@@ -109,14 +107,12 @@
             <td><input type="checkbox" name="decline[]" value="<?=$list['id'] ?>"></td>
         </tr>
         </tbody>
-
+        <?php
+        }
+        //?>
 
     </table>
     <input type="submit" value="Обновить списки"/>
-    <?php
-    }}else{
-        echo "Список на регистрацию пуст";
-    }
-    //?>
+
 
 </form>

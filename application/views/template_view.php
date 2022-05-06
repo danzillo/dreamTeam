@@ -33,7 +33,31 @@ family=Roboto:400,300,100&subset=cyrillic,latin">
 <style>
     body {
         background: url(../../assets/images/1.jpg);
+
+    .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
     }
+
+
+
+
+    ::-webkit-scrollbar{
+        width: 15px;
+        height: 10px;
+    }
+    ::-webkit-scrollbar-track{
+        background: rgb(34, 34, 34)
+    }
+    ::-webkit-scrollbar-thumb{
+        background: rgb(238, 238, 238);
+        border-radius: 8px;
+        border: 3px solid rgb(34, 34, 34)
+
+    }
+    }
+
 </style>
 <header class="primary-header container group" id = "head">
     <nav class="nav primary-nav">
