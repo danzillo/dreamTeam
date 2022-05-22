@@ -1,6 +1,7 @@
 <?php
 
-class Controller_Schedule extends Controller{
+class Controller_Schedule extends Controller
+{
     function __construct()
     {
         $this->model = new Model_Schedule();
@@ -16,10 +17,4 @@ class Controller_Schedule extends Controller{
         //  $data = $this->model->getNews();
         $this->view->generate('schedule_view.php', 'template_view.php', $data);
     }
-
-//    function index(){
-//        $this->view->generate("schedule_view.php", "template_view.php");
-//    }
 }
-
-//
