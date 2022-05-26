@@ -13,7 +13,6 @@ class Controller_Admin_Register extends Controller
     {
         session_start();
         $all_user = $this->model->get_all_user();
-        // var_dump($reg_user);
         $data['all_user'] = $all_user;
 
         $new_user = $this->model->get_reg_user();

@@ -219,7 +219,7 @@
     //заполняю этот массив по дате
     //и вывожу массив
     $event_data = $data['event_data'];
-    foreach ($event_data as $event){
+    foreach ($event_data as $event) {
         $schedule[$event['day_id']][$event['time_id']] = $event['event_theme'];
     }
 
