@@ -20,23 +20,11 @@ class Route
 		{	
 			$controller_name = $routes[1];
 		}
-		
-		// получаем имя экшена
-//		if ( !empty($routes[2]) )
-//		{
-//			$action_name = $routes[2];
-//		}
+
 
 		// добавляем префиксы
 		$model_name = 'Model_'.$controller_name;
 		$controller_name = 'Controller_'.$controller_name;
-		//$action_name = 'action_'.$action_name;
-
-		/*
-		echo "Model: $model_name <br>";
-		echo "Controller: $controller_name <br>";
-		echo "Action: $action_name <br>";
-		*/
 
 		// подцепляем файл с классом модели (файла модели может и не быть)
 
@@ -56,10 +44,7 @@ class Route
 		}
 		else
 		{
-			/*
-			правильно было бы кинуть здесь исключение,
-			но для упрощения сразу сделаем редирект на страницу 404
-			*/
+			//редирект на страницу 404
 			Route::ErrorPage404();
 		}
 		
@@ -74,7 +59,7 @@ class Route
 		}
 		else
 		{
-			// здесь также разумнее было бы кинуть исключение
+			//редирект на страницу 404
 			Route::ErrorPage404();
 		}
 	
