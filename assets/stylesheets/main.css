@@ -226,6 +226,7 @@ h4 {
 }
 
 h1 {
+    color: #000000;
     font-size: 36px;
     line-height: 44px;
 }
@@ -240,12 +241,12 @@ h3 {
 }
 
 .h7 {
-    color: #000000;
+    color:  #000000;
     font-size: 21px;
 }
 
 .h8 {
-    color: rgb(4, 54, 19);
+    color:  #ffffff;
     font-size: 18px;
 }
 
@@ -254,7 +255,7 @@ h4 {
 }
 
 h5 {
-    color: #000000;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
@@ -276,7 +277,7 @@ em {
   ========================================
 */
 
-.btn {
+.btn1 {
 
     border-radius: 5px;
     color: #fff;
@@ -331,6 +332,7 @@ em {
 }
 
 .js._active {
+    color:#fff;
     transform: translate(0px, 0px);
     opacity: 1;
 }
@@ -364,6 +366,7 @@ em {
 }
 
 .js3._active {
+    color:#fff;
     transform: translate(0px, 0px);
     opacity: 1;
 }
@@ -393,6 +396,7 @@ em {
 }
 
 .spkr._active {
+    color: #fff;;
     transform: translate(0px, 0px);
     opacity: 1;
 }
@@ -556,7 +560,7 @@ p a {
     line-height: 44px;
 }
 .color1 {
-    color: #1a493f;
+    color: #648880;
 font-weight: bold;
 }
 
@@ -566,7 +570,7 @@ font-weight: bold;
 }
 
 .red {
-    color: #700606;
+    color: #ffffff;
 }
 
 .red:hover {
@@ -658,7 +662,7 @@ font-weight: bold;
 }
 
 .venue-map {
-    height: 264px;
+    height: 500px;
 }
 
 .schedule {
@@ -811,3 +815,5 @@ cursor:pointer;
 display:none;
 
 }
+
+  

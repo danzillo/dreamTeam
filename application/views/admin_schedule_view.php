@@ -1,73 +1,36 @@
-<style>
-    /* Стили таблицы (IKSWEB) */
-    table.iksweb {
-        text-decoration: none;
-        border-collapse: collapse;
-        width: 100%;
-        text-align: left;
-    }
-
-    table.iksweb th {
-        font-weight: normal;
-        font-size: 16px;
-        color: #ffffff;
-        background-color: #348f00;
-    }
-
-    table.iksweb td {
-        font-size: 14px;
-        color: #000000;
-    }
-
-    table.iksweb td, table.iksweb th {
-        white-space: pre-wrap;
-        padding: 12px 20px;
-        line-height: 14px;
-        vertical-align: middle;
-        border: 1px solid #348f00;
-    }
-
-    table.iksweb tr:hover {
-        background-color: #f9fafb
-    }
-
-    table.iksweb tr:hover td {
-        color: #354251;
-        cursor: default;
-    }
-</style>
-
-
 <li><a href="/admin" class="otstup">Назад</a></li>
-
 
 <h>Общий список</h>
 <table class="iksweb">
-    <tbody>
-    <tr>
-        <th>День</th>
-        <th>Описание</th>
-        <th>Время</th>
+    <form method="post" action="">
+        <tbody>
+        <tr>
+            <th>День</th>
+            <th>Описание</th>
+            <th>Время</th>
+            <th>Удалить?</th>
 
-    </tr>
-    <?php
-    $all_list = $data['all_events'];
-    foreach ($all_list
+        </tr>
+        <?php
+        $all_list = $data['all_events'];
+        foreach ($all_list
 
-    as $list){
-    ?>
+        as $list){
+        ?>
 
-    <tr>
-        <td><?= $list['day_name'] ?></td>
-        <td><?= $list['event_theme'] ?></td>
-        <td><?= $list['time_text'] ?></td>
-    </tr>
-    </tbody>
-    <?php
-    }
-    //?>
-
+        <tr>
+            <td><?= $list['day_name'] ?></td>
+            <td><?= $list['event_theme'] ?></td>
+            <td><?= $list['time_text'] ?></td>
+            <td><input type="checkbox" name="decline[]" value="<?= $list['event_id'] ?>"></td>
+        </tr>
+        </tbody>
+        <?php
+        }
+        //?>
 </table>
+<input type="submit" value="Обновить списки"/>
+</form>
 
 <form method="post" action="">
     <p><select size="1" name="day">
@@ -77,7 +40,7 @@
             var_dump($data["all_days"]);
             foreach ($all_days as $all_day) {
                 ?>
-                <option value="<?= $all_day['day_name'] ?>"><?= $all_day['day_name'] ?></option>
+                <option value="<?= $all_day['day_id'] ?>"><?= $all_day['day_name'] ?></option>
             <?php } ?>
         </select></p>
 
@@ -88,7 +51,7 @@
             var_dump($data["all_times"]);
             foreach ($all_times as $all_time) {
                 ?>
-                <option value="<?= $all_time['time_text'] ?>"><?= $all_time['time_text'] ?></option>
+                <option value="<?= $all_time['time_id'] ?>"><?= $all_time['time_text'] ?></option>
             <?php } ?>
         </select></p>
 

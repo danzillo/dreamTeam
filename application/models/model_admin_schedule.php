@@ -1,13 +1,13 @@
 <?php
 class Model_Admin_Schedule extends Model{
 
-    function delete_event(){
+    function delete_event($event_id){
         $query = "DELETE FROM `event` WHERE `event`.`event_id` = {$event_id}";
         return $this->query($query);
     }
 
     function add_event(){
-        $query = "INSERT INTO `event` (`event_id`, `data_id`, `event_theme`, `time_id`) VALUES (NULL, '{$_POST['day']}', '{$_POST['discription']}', '{$_POST['time']}')";
+        $query = "INSERT INTO `event` (`event_id`, `data_id`, `event_theme`, `time_id`) VALUES (NULL, '{$_POST['day']}', '{$_POST['comment']}', '{$_POST['time']}')";
         return $this->query($query);
     }
 

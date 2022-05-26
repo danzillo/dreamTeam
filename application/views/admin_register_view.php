@@ -1,45 +1,5 @@
-<style>
-    /* Стили таблицы (IKSWEB) */
-    table.iksweb {
-        text-decoration: none;
-        border-collapse: collapse;
-        width: 100%;
-        text-align: left;
-    }
-
-    table.iksweb th {
-        font-weight: normal;
-        font-size: 16px;
-        color: #ffffff;
-        background-color: #348f00;
-    }
-
-    table.iksweb td {
-        font-size: 14px;
-        color: #000000;
-    }
-
-    table.iksweb td, table.iksweb th {
-        white-space: pre-wrap;
-        padding: 12px 20px;
-        line-height: 14px;
-        vertical-align: middle;
-        border: 1px solid #348f00;
-    }
-
-    table.iksweb tr:hover {
-        background-color: #f9fafb
-    }
-
-    table.iksweb tr:hover td {
-        color: #354251;
-        cursor: default;
-    }
-</style>
-
 
 <li><a href="/admin" class="otstup">Назад</a></li>
-
 
 <h>Общий список</h>
 <form method="post" action="">
@@ -83,7 +43,7 @@
                 <th>Отклонить</th>
             </tr>
             <?php
-            $reg_list = $data['reg_user'];
+            $reg_list = $data['register_user'];
             foreach ($reg_list as $list){
             ?>
 
