@@ -228,7 +228,7 @@
         <td class="nechet"><?php echo $schedule[0][$b];
             ?> </td> <? //вносим данные в таблицу
     } ?>
-    <td class="vremya nechet"></td>
+    <td class="vremya nechet">10:00-12:00</td>
     </tr>
 
     <?php
@@ -238,7 +238,7 @@
         <td><?php echo $schedule[1][$b];
             ?> </td> <? //вносим данные в таблицу
     } ?>
-    <td class="vremya"></td>
+    <td class="vremya">12:00-14:00</td>
     </tr>
 
 
@@ -249,7 +249,7 @@
         <td class="nechet"><?php echo $schedule[2][$b];
             ?> </td> <? //вносим данные в таблицу
     } ?>
-    <td class="vremya nechet"></td>
+    <td class="vremya nechet">14:00-16:00</td>
     </tr>
 
 
@@ -260,7 +260,7 @@
         <td><?php echo $schedule[3][$b];
             ?> </td> <? //вносим данные в таблицу
     } ?>
-    <td class="vremya"></td>
+    <td class="vremya">16:00-18:00</td>
     </tr>
 
 
@@ -271,7 +271,7 @@
         <td class="nechet"><?php echo $schedule[4][$b];
             ?> </td> <? //вносим данные в таблицу
     } ?>
-    <td class="vremya nechet"></td>
+    <td class="vremya nechet">18:00-20:00</td>
     </tr>
 
     <tr>

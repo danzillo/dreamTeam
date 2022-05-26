@@ -8,7 +8,7 @@ class Model_Admin_Register extends Model
         return $this->query($query);
     }
 
-    public function  get_reg_user(){
+    public function  get_new_user(){
         $query ="SELECT * FROM `registration` WHERE `registration`.`accept`=0 ";
         return $this->query($query);
     }

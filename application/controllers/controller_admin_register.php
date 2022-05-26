@@ -15,7 +15,7 @@ class Controller_Admin_Register extends Controller
         $all_user = $this->model->get_all_user();
         $data['all_user'] = $all_user;
 
-        $new_user = $this->model->get_reg_user();
+        $new_user = $this->model->get_new_user();
         $data['reg_user'] = $new_user;
 //        $id = $_POST["accept"];
 
