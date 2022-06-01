@@ -1,6 +1,6 @@
 <?php
-$host = 'localhost';
-$database = 'orient';
+$host = 'project';
+$database = 'dream_team';
 $user = 'root';
 $password = '';
 ?>

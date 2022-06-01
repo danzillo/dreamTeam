@@ -1,4 +1,8 @@
-<h1>404</h1>
-<p>
+<p class = "aligncenter">
 <img src="/assets/images/404.png">
 </p>
+<style>
+    .aligncenter {
+        text-align: center;
+    }
+</style>

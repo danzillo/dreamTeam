@@ -12,11 +12,8 @@ class Controller_Portfolio extends Controller
     function index()
     {
         $news = $this->model->getNews();
-        $test = $this->model->getXyu();
 
         $data['news'] = array_reverse($news);
-        $data['xyi'] = $test;
-        $data['title'] = 'Портфолио';
 
         $this->view->generate('portfolio_view.php', 'template_view.php', $data);
     }
