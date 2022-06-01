@@ -1,4 +1,3 @@
-
 <li><a href="/admin" class="otstup">Назад</a></li>
 
 <h>Общий список</h>
@@ -13,7 +12,9 @@
         </tr>
         <?php
         $all_list = $data['all_user'];
-        foreach ($all_list as $list){
+        foreach ($all_list
+
+        as $list){
 
         ?>
 
@@ -25,7 +26,7 @@
         </tbody>
         <?php
         }
-        //?>
+        ?>
 
     </table>
 
@@ -44,7 +45,9 @@
             </tr>
             <?php
             $reg_list = $data['register_user'];
-            foreach ($reg_list as $list){
+            foreach ($reg_list
+
+            as $list){
             ?>
 
             <tr>

@@ -19,33 +19,6 @@
                 <td class="first">Воскресенье</td>
                 <td class="first opa">Время</td>
             </tr>
-            <!--    <?php
-            /*    $schedule = array( array(" ", " " , " ", " " , " "),
-                    array(" ", " " , " ", " " , " "),
-                    array(" ", " " , " ", " " , " "),
-                    array(" ", " " , " ", " " , " "),
-                    array(" ", " " , " ", " " , " ")
-                );
-
-            //заполняю этот массив по дате
-            //и вывожу массив
-                $event_data = $data['event_data'];
-                var_dump($event_data);
-                foreach ($event_data as $event) {
-                $count = 1;
-                for ($i = 1; $i < 5; $i++) {
-                if ($event['day_id'] == 1 && $event['time_id'] == 1 && $count == 1) {
-                */ ?>
-    <td class="nechet"><?php /*echo $event['event_theme'];
-        $count++;
-        */ ?> </td> <? /*//вносим данные в таблицу
-    }  else  */ ?>
-    <td class="nechet"></td> <? /*
-    } */ ?>
-    <td class="vremya nechet"></td> </tr> --><? /*
-    }
-    */ ?>
-
             <?php
             $schedule = array(array(" ", " ", " ", " ", " "),
                 array(" ", " ", " ", " ", " "),

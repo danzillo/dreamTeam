@@ -22,10 +22,10 @@ class Controller_Register extends Controller
     function index()
     {
         session_start();
-        //unset($_SESSION['register_status']);
-        if(isset($_SESSION['register_status'])){
-            if($_SESSION['register_status'] == "success"){
-            echo "<script>alert('Вы зарегестрированы!')</script>";}
+        if (isset($_SESSION['register_status'])) {
+            if ($_SESSION['register_status'] == "success") {
+                echo "<script>alert('Вы зарегестрированы!')</script>";
+            }
             unset ($_SESSION['register_status']);
         }
         /*

@@ -1,5 +1,4 @@
-﻿
-<section class="register1">
+﻿<section class="register1">
     <style>
         * {
             box-sizing: border-box;
@@ -40,7 +39,7 @@
 
         }
 
-        .registerButton{
+        .registerButton {
             margin: 0;
             padding: 0;
             border: 0;
@@ -53,6 +52,7 @@
             text-decoration: none;
 
         }
+
         .btn {
 
             border-radius: 5px;
@@ -83,7 +83,8 @@
         .registerbtn:hover {
             opacity: 1;
         }
-        .registerButton{
+
+        .registerButton {
             margin: 0;
             padding: 0;
             border: 0;
@@ -96,7 +97,8 @@
             text-decoration: none;
             margin: 0 auto;
         }
-        .knopka{
+
+        .knopka {
             background: transparent;
             border: none !important;
             margin: 0;
@@ -112,7 +114,6 @@
             margin: 0 auto;
         }
     </style>
-
 
 
     <form action="" method="post">
@@ -132,14 +133,15 @@
             <input type="text" placeholder="Введите почту" name="mail" required>
             <hr>
 
-            <!--<button type="submit" class="registerbtn">Зарегистрировать</button>-->
         </div>
 
         <div class="container signin">
 
         </div>
         <section class="hero container js3 _anim-items animnh">
-            <a class="btn btn-alt " ><button class="btn btn-alt knopka">Зарегистрируйтесь сейчас</button></a>
+            <a class="btn btn-alt ">
+                <button class="btn btn-alt knopka">Зарегистрируйтесь сейчас</button>
+            </a>
         </section>
     </form>
     <style>
@@ -150,14 +152,3 @@
     </body>
 
 </section>
-
-<?php
-//if(mail('mail', 'Регистрация', 'Ваша регистрация на мероприятие прошла успешно!') ) {echo'Письмо успешно отправлено';
-//}else{echo 'Ошибка';}
-//?>
-
-<?php //extract($_SESSION); ?>
-<?php //if ($register_status == "success") { ?>
-<?php //echo "<script>alert('alert php')</script>";?>
-<?php //}
-//var_dump($register_status); ?>

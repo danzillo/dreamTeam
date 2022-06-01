@@ -19,9 +19,7 @@
     </form>
 </table>
 
-
-
 <?php extract($data); ?>
-<?php if($login_status=="fail") { ?>
-<p style="color:red">Проверьте правильность данных!</p>
+<?php if ($login_status == "fail") { ?>
+    <p style="color:red">Проверьте правильность данных!</p>
 <?php } ?>

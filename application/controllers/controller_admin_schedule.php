@@ -21,9 +21,9 @@ class Controller_Admin_Schedule extends Controller
 
         //добавление нового соьбытия
         if (isset($_POST['day']) && isset($_POST['time']) && isset($_POST['comment'])) {
+
             // отправка данных в бд
             $this->model->add_event();
-            //отправка письма по введенному почтовому адресу
 
             //редирект, чтобы очистить форму
             header("Location:/admin_schedule/");
